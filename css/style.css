@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.parentdiv {
+    background-color: #020A18;
+}
+
+.main {
+    background-color: #09111F;
+}
+
+
+
+
+/* TODO  -  Header start*/
+header {
+    height: 100px;
+    background-color: #0A121F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+}
+
+header div h1 {
+    color: #3A68B8;
+}
+
+header nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+header nav {
+  display: none;
+}
+
+header .fa-bars {
+  color: #FFF;
+}
+
+header a.sign-in {
+    background-color: #3A68B8;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    text-decoration: none;
+}
+/* TODO  -  Header end */
+
+
+
+
+/* TODO  -  Main start */
+.main .left-side h6 {
+    color: #3A68B8;
+    text-transform: uppercase;
+}
+
+.main .left-side h1 {
+    color: #FFF;
+}
+
+.main .left-side article {
+     color: #FFF;
+}
+
+.main .left-side .buttons-1 .Get-started {
+  background-color: #3A68B8;
+  color: #fff ;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.main .left-side .buttons-1 .watch-video {
+  background-color: #3A68B8;
+  color: #fff ;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+/* TODO  -  Main End */
+
+
+
+
+/* TODO  -  Intermediate Start */
+.intermediate div h3 {
+  color: #fff;
+}
+
+.intermediate div article {
+  color: #fff;
+}
+
+.intermediate div .Learn-More {
+  color: #fff;
+  background-color: #3A68B8;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+/* TODO  -  Intermediate End */
+
+
+
+
+/* TODO  -  Second Start */
+.second .awards {
+  background-color: #111926;
+  border-radius: 10px;
+}
+
+.second .awards h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-inline: 20px;
+}
+
+.second .awards p {
+  color: #fff;
+  text-align: center;
+  padding-inline: 20px;
+}
+/* TODO  -  Second End */
+
+
+
+
+/* TODO  -  Ellips Start */
+.ellips {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ellips img {
+  padding: 5px;
+}
+/* TODO  -  Ellips End */
+
+
+
+
+/* TODO  -  Footer Start */
+footer {
+  background-color: #08101e;
+}
+
+footer .rekvizit h4 {
+  color: #3A68B8;
+  font-weight: 600;
+}
+
+footer .rekvizit p {
+  font-size: 14px;
+  font-weight: 450;
+  color: #FFF;
+  opacity: 60%;
+}
+
+footer .rekvizit .fa-envelope {
+  color: #FFF;
+}
+
+footer .rekvizit a {
+  font-size: 14px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer .rekvizit .fa-phone-volume {
+  color: #FFF;
+}
+
+footer .rekvizit .fa-location-dot {
+  color: #FFF;
+}
+
+footer .rekvizit article {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer .info h4 {
+  color: #FFF;
+  font-weight: 500;
+}
+
+footer .info p {
+  color: #FFF;
+  opacity: 60%;
+  font-size: 14px;
+  font-weight: 450;
+}
+
+footer .end h4 {
+  color: #FFF;
+}
+
+footer .end p {
+  color: #fff;
+  opacity: 60%;
+  font-size: 14px;
+  font-weight: 450;
+}
+
+footer .end a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer div .lang {
+  color: #fff;
+}
+
+footer div .lang span {
+  font-size: 14px;
+  font-weight: 450;
+}
+/* TODO  -  Footer End */
+
+
+
+
+
+
+/*? Saytımızın ümumi görünüşünü müxtəlif cihazlarda yaxşı görsənməsi üçün responsivliyinin təyin edilməsi: */
+  /* Maksimum ölçüsü 575px olan ekranlarda ümumi ekranın 100%-ni tutsun. */
+  @media(max-width: 575px) {
+    .parentdiv {
+      max-width: 100%;
+    }
+ 
+ 
+    /* TODO  -  max 575* Header Start */
+    header div {
+      margin-left: 3px;
+      width: 150px;
+    }
+
+    header div h1 {
+      font-size: 18px;
+      font-weight: 600;
+      padding-left: 10px;
+    }
+
+    header a.sign-in {
+      width: 90px;
+      height: 40px;
+      margin-right: 3px;
+    }
+/* TODO  -  max 575* Header End */
+
+
+
+
+/* TODO  -  max 575* Main Start */
+    .main .left-side {
+     width: 270px;
+     height: 300px;
+     margin-top: 50px;
+     margin-left: 15px;
+    }
+
+    .main .left-side h6 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 0;
+    } 
+
+    .main .left-side h1 {
+      font-size: 26px;
+      margin: 10px 0;
+    }
+
+    .main .left-side article {
+      width: 270px;
+      height: 115px;
+      font-size: 15px;
+      margin-top: 20px;
+      text-align:justify;
+    }
+
+    .main .left-side .buttons-1 .Get-started {
+      width: 110px;
+      height: 40px;
+    }
+    
+    .main .left-side .buttons-1 .watch-video {
+      width: 150px;
+      height: 40px;
+      margin-left: 5px;
+    }
+
+    .main .left-side .buttons-1 .fa-play {
+      margin-right: 10px;
+    }
+
+    .main .left-right .right-side img {
+      width: 260px;
+      margin: 20px 20px;
+    }
+
+    .main .partners img {
+      width: 220px;
+      padding: 20px 40px;
+    }
+/* TODO  -  max 575* Main End */
+
+
+
+
+/* TODO  -  max 575* Intermediate Start */
+    .intermediate img {
+      width: 260px;
+      margin: 60px 20px;
+    }
+
+    .intermediate div {
+      margin: 0 15px;
+    }
+
+    .intermediate div h3 {
+      font-size: 22px;
+    }
+
+    .intermediate div article {
+      font-size: 13px;
+      text-align: justify;
+    }
+
+    .intermediate div a {
+      width: 140px;
+      height: 40px;
+      margin-top: 20px;
+      margin-left: 60px;
+    }
+/* TODO  -  max 575* Intermediate End */
+
+
+
+
+/* TODO  -  max 575* Second Start */
+    .second {
+      margin: 100px 15px;
+    }
+
+    .second .awards {
+      margin: 40px 0;
+    }
+
+    .second .awards img {
+      width: 55px;
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+
+    .second .awards h5 {
+      font-size: 19px;
+    }
+
+    .second .awards p {
+      font-size: 15px;
+      padding: 0 4px 30px 4px;
+    }
+/* TODO  -  max 575* Second End */
+
+
+
+
+/* TODO  -  max 575* Awesome Start */
+    .awesome-left {
+      margin: 100px 20px;
+      color: #FFF;
+    }
+
+    .awesome-left h1 {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .awesome-left p {
+      font-weight: 600;
+      text-align: justify;
+      padding-top: 15px;
+    }
+
+    .awesome-right img {
+      width: 300px;
+    }
+/* TODO  -  max 575* Awesome End */
+
+
+
+
+/* TODO  -  max 575* Footer Start */
+    footer {
+      margin-top: 70px;
+    }
+
+    footer .rekvizit img {
+      margin: 50px 0 0 15px;
+    }
+
+    footer .rekvizit h4 {
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+
+    footer .rekvizit p {
+      margin: 10px 15px 0 15px;
+    }
+
+    footer .rekvizit .fa-envelope {
+      margin: 30px 5px 0 15px;
+    }
+
+    footer .rekvizit .fa-phone-volume {
+      margin: 30px 5px 0 15px;
+    }
+    
+    footer .rekvizit .fa-location-dot {
+      margin-right: 5px;
+    }
+    
+    footer .rekvizit article {
+      margin: 30px 5px 0 15px;
+    }
+    
+    footer .info h4 {
+      margin: 50px 0 20px 15px;
+    }
+
+    footer .info p {
+      margin: 5px 15px;
+    }
+
+    footer .end h4 {
+      margin: 50px 0 0 15px;
+    }
+
+    footer .end p {
+      margin: 20px 15px 0 15px;
+    }
+
+    footer .end a {
+      display: inline-block;
+      margin: 20px 0 0 15px;
+    }
+
+    footer .logotips {
+      margin-top: 10px;
+    }
+
+    footer .logotips a {
+      margin-right: 5px;
+    }
+
+    footer div .lang span {
+      margin-right: 10px;
+    }
+
+    footer div .lang .fa-globe {
+      margin: 50px 10px 0 15px;
+    }
+
+    footer div .lang .fa-chevron-down {
+      margin-bottom: 100px;
+    }
+/* TODO  -  max 575* Footer End */
+  }
+
+
+
+
+
+
+
+
+
+/* ? Mnimum ölçüsü 576px olan ekranlarda  */
+  @media(min-width: 576px) {
+    .parentdiv {
+      max-width: 540px;
+      margin: 0 auto;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* ? Minimum ölçüsü 768px olan ekranlarda */
+  @media(min-width: 768px) {
+    .parentdiv {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+
+/* TODO  -  min 768* Header Start */
+    header div {
+      margin-left: 20px;
+    }
+
+    header div h1 {
+      font-size: 18px;
+      font-weight: 600;
+      padding-left: 5px;
+    }
+
+    /*  Navbarı 768-dən yuxarı ölçülərdə görüntüləmək, bar menyunun (qamburger menyu) isə görsənməməsi üçün */
+    header nav {
+      display: block;
+    }
+
+    header .fa-bars {
+      display: none;
+    }
+    
+    header nav a {
+      margin-right: 10px;
+    }
+
+    header a.sign-in {
+      width: 90px;
+      height: 40px;
+      margin-right: 20px;
+    }
+/* TODO  -  min 768* Header End */
+
+
+
+
+/* TODO  -  min 768* Main Start */
+    .main .left-right {
+      display: flex;
+    }
+
+    .main .left-side {
+     width: 355px;
+     height: 300px;
+     margin-top: 60px;
+     margin-left: 40px;
+    }
+
+    .main .left-side h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+    }
+
+    .main .left-side h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin: 10px 0;
+    }
+
+    .main .left-side article {
+      width: 355px;
+      height: 80px;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+
+    .main .left-side .buttons-1 .Get-started {
+      font-size: 18px;
+      font-weight: 600;
+      width: 140px;
+      height: 45px;
+    }
+
+    .main .left-side .buttons-1 .watch-video {
+      font-size: 18px;
+      font-weight: 600;
+      width: 160px;
+      height: 45px;
+      margin-left: 10px;
+    }
+
+    .main .left-side .buttons-1 .fa-play {
+      padding-right: 10px;
+    }
+
+    .main .left-right .right-side {
+      margin: 30px 0 0 30px;
+    }
+
+    .main .left-right .right-side img {
+      width: 300px;
+    }
+
+    .main .partners {
+      display: flex;
+      justify-content: space-around;
+      padding: 70px 20px;
+    }
+
+    .main .partners img {
+      width: 140px;
+    }
+/* TODO  -  min 768* Main End */
+
+
+
+
+/* TODO  -  min 768* Intermediate Start */
+    .intermediate {
+      display: flex;
+      width: 700px;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    .intermediate img {
+      width: 300px;
+    }
+
+    .intermediate div {
+      width: 350px;
+      margin-left: 40px;
+    }
+    
+    .intermediate div h3 {
+      font-size: 27px;
+      font-weight: 700;
+    }
+    
+    .intermediate div article {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    
+    .intermediate div .Learn-More {
+      font-size: 16px;
+      font-weight: 600;
+      width: 130px;
+      height: 45px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-top: 40px;
+    }
+/* TODO  -  min 768* Intermediate End */
+
+
+
+
+/* TODO  -  min 768* Second Start */
+    .second {
+      margin-top: 100px;
+    }
+    
+    .second .awards {
+      display: inline-block;
+      width: 300px;
+      justify-self: left;
+      margin-left: 50px;
+      margin-top: 40px;
+    }
+    
+    .second .awards img {
+      width: 55px;
+      margin-top: 20px;
+      margin-left: 120px;
+    }
+
+    .second .awards p {
+      font-size: 14px;
+      font-weight: 600;
+      padding-inline: 20px;
+    }
+  /* TODO  -  min 768* Second End */
+}
+
+
+
+
+
+
+
+
+
+/* ? Minimum ölçüsü 884px olan ekranlarda */
+@media(min-width: 884px) {
+    .parentdiv {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+  }
+  
+
+
+  /* ? Minimum ölçüsü 992px olan ekranlarda */
+  @media(min-width: 992px) {
+    .parentdiv {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+  
+
+
+  /* ? Minimum ölçüsü 1200px olan ekranlarda */
+@media(min-width: 1200px) {
+  .parentdiv {
+    max-width: 1190px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+                            
+@media(min-width:1280px) {
+  .parentdiv {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+
+/* TODO  -  min 1280* Header Start */
+  header div {
+    margin-left: 20px;
+  }
+
+  header div h1 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 10px;
+  }
+
+    header nav {
+    display: block;
+  }
+
+  header .fa-bars {
+    display: none;
+  }
+
+  header nav a {
+    margin-right: 15px;
+  }
+
+  header a.sign-in {
+    width: 112px;
+    height: 52px;
+    margin-right: 20px;
+  }
+/* TODO  -  1280* Header End */
+
+
+
+
+/* TODO  -  1280* Main Start */
+  .main .left-right {
+    display: flex;
+  }
+
+  .main .left-side {
+    width: 510px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+
+  .main .left-side h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .main .left-side h1 {
+    font-size: 43px;
+    font-weight: 800;
+    margin: 10px 0;
+  }
+
+  .main .left-side article {
+    width: 540px;
+    font-size: 18px;
+    padding: 30px 0;
+  }
+
+  .main .left-side .buttons-1 .Get-started {
+    font-size: 18px;
+    font-weight: 600;
+    width: 171px;
+    height: 57px;
+  }
+
+  .main .left-side .buttons-1 .watch-video {
+    font-size: 18px;
+    font-weight: 600;
+    width: 171px;
+    height: 57px;
+    margin-left: 10px;
+  }
+
+  .main .left-side .buttons-1 .fa-play {
+    padding-right: 10px;
+  }
+  
+  .main .left-right .right-side {
+    margin: 50px 0 0 100px;
+  }
+
+  .main .left-right .right-side img {
+    width: 480px;
+  }
+
+  .main .partners {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .main .partners img {
+    width: 200px;
+  }
+/* TODO  -  1280* Main End */
+
+
+
+
+/* TODO  -  1280* Intermediate Start */
+  .intermediate {
+    width: 1277px;
+  }
+
+  .intermediate img {
+    width: 600px;
+    margin: 50px 0 0 100px;
+  }
+
+  .intermediate div {
+    width: 380px;
+    margin-top: 165px;
+  }
+  
+  .intermediate div h3 {
+    font-size: 35px;
+    font-weight: 700;
+    width: 475px;
+  }
+  
+  .intermediate div article {
+    font-size: 16px;
+    font-weight: 600;
+    width: 460px;
+  }
+
+  .intermediate div .Learn-More {
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+/* TODO  -  1280* Intermediate End */
+
+
+
+
+/* TODO  -  1280* Second Start */
+  .second {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second .awards {
+    width: 240px;
+    margin-left: 0;
+  }
+
+  .second .awards img {
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .second .awards h5 {
+    font-size: 16px;
+  }
+
+  .second .awards p {
+    font-size: 11px;
+    font-weight: 600;
+  }
+/* TODO  -  1280* Second End */
+
+
+
+
+/* TODO  -  1280* Awesome Start */
+  .awesome {
+    display: flex;
+    width: 1146px;
+    height: 551px;
+    margin: 100px;
+  }
+
+  .awesome .awesome-left {
+    width: 535px;
+    height: 464px;
+  }
+
+  .awesome .awesome-left h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .awesome .awesome-left p {
+    color: #FFF;
+    opacity: 70%;
+    width: 460px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+  }
+
+  .awesome .awesome-right {
+    width: 600px;
+  }
+
+  .awesome .awesome-right img {
+    width: 100%;
+  }
+/* TODO  -  1280* Awecome End */
+
+
+
+/* TODO  -  1280* Footer Start */
+  footer {
+    display: flex;
+  }
+
+  footer .rekvizit {
+    width: 270px;
+    margin: 70px 50px 150px 50px;
+  }
+
+  footer .rekvizit h4 {
+    margin-top: 5px;
+  }
+
+  footer .rekvizit p {
+    width: 271px;
+  }
+
+  footer .fa-envelope {
+    margin: 20px 5px 0 0;
+  }
+
+  footer .fa-phone-volume {
+    margin: 20px 5px 0 0;
+  }
+
+  footer .fa-location-dot {
+    margin: 20px 5px 0 0;
+  }
+
+  footer .info {
+    width: 164px;
+    margin: 70px 0 0 20px;
+  }
+
+  footer .info h4 {
+    margin-bottom: 35px;
+  }
+
+  footer .info p {
+    margin-top: 22px;
+  }
+
+  footer .end {
+    width: 275px;
+    margin: 70px 0 0 20px;
+  }
+
+  footer .end h4 {
+    margin-bottom: 35px;
+  }
+
+  footer .end p{
+    width: 275px;
+  }
+
+  footer .end a {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  footer .end .logotips a {
+    margin-right: 20px;
+  }
+
+  footer div .lang .fa-globe {
+    margin: 55px 10px 0 0;
+  }
+/* TODO  -  1280* Footer End */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  /* Minimum ölçüsü 1400px olan ekranlarda */
+@media(min-width: 1400px) {
+    .parentdiv {
+      max-width: 1320px;
+      margin: 0 auto;
+    }
+  }
+
+
+
+@media(min-width: 1600px) {
+    .parentdiv {
+      max-width: 1580px;
+      margin: 0 auto;
+    }
+
+    .main .left-side {
+      width: 600px;
+      height: 400px;
+      margin-top: 200px;
+      margin-left: 120px;
+    }
+
+    .main .left-side article {
+      width: 558px;
+      height: 87px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+
+
+.intermediate {
+    margin: 0 140px;
+    }
+
+.intermediate img {
+    width: 600px;
+    padding: 100px 50px 50px;
+}
+
+.intermediate div {
+  margin-top: 180px;
+  margin-left: 50px;
+}
+
+.intermediate div h3 {
+  width: 484px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.intermediate div article {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.intermediate div .Learn-More {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+  }
+
+
+  .second .awards {
+    width: 300px;
+    height: 320px;
+  }
+
+  .second .awards img {
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+  }
+
+  .second .awards h5 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .second .awards p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+  
+  
+  
+  /* todo - Müxtəlif cihzlarda ekran ölçülərinə görə responsivliyin təyini:*/
+  
+  /* 1. Ekran ölçüləri: 576-dan kiçik olanda - ekstra kiçik cihazlar col-12
+  2. Ekran ölçüləri: 576-768 kiçik cihazlar 
+  3. Ekran ölçüləri: 768-991 (planşet) col-md
+  4. Ekran ölçüləri: 991-1200  noutbuklar
+  5. Ekran ölçüləri: 1200-1400 (PC)
+  6. Ekran ölçüləri: 1400-dən yuxarı (Smart TV) */
